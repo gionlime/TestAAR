@@ -1,4 +1,9 @@
 # android-example
+#### aar打包命令
+
+```shell
+./gradlew app:assembleRelease
+```
 
 [![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#jitpack/android-example)
 
@@ -53,3 +58,5 @@ If you add a sample app to the same repo then your app needs to have a dependenc
         compile project(':library')
     }
 ```
+
+
