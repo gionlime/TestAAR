@@ -2,6 +2,7 @@
 #### aar打包命令
 
 ```shell
+ ./gradlew build
 ./gradlew app:assembleRelease
 ```
 

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.jitpack'
-version = '1.0'
+version = '1.0.0'
 
 android {
     compileSdkVersion 31
@@ -13,8 +13,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 100
+        versionName version
     }
 
     buildTypes {
